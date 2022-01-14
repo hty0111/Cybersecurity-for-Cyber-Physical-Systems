@@ -15,39 +15,39 @@
 
 ### 4. 目录
 
-​	|- `README.md`				// *help*
+* `README.md`				// *help*
 
-​	|- `PPT展示题目.pdf`  	// *明文*
+* `PPT展示题目.pdf`  	// *明文*
 
-​	|- `code`
+* `code`
 
-​		\ - `main.py`				// *加密算法主函数*
+  * `main.py`				// *加密算法主函数*
 
-​		\ - `MD5.py`
+  * `MD5.py`
 
-​		\ - `SHA1.py`
+  * `SHA1.py`
 
-​		\ - `HMAC.py`
+  * `HMAC.py`
 
-​		\ - `DEC.py`
+  * `DEC.py`
 
-​		\ - `DEC3.py`
+  * `DEC3.py`
 
-​		\ - `AEC.py`
+  * `AEC.py`
 
-​		\ - `RSA.py`
+  * `RSA.py`
 
-​	| - `cipher.txt`		 	// *各类算法的运行结果*
+* `cipher.txt`		 	// *各类算法的运行结果*
 
-​	| - `key`				           // *公钥私钥对*
+* `key`				           // *公钥私钥对*
 
-​		\ - `privateKey.pem`
+  * `privateKey.pem`
 
-​		\ - `publivKey.pem`
+  * `publivKey.pem`
 
-​	| - `efficiency.png`	 // *加密效率对比*
+* `efficiency.png`	 // *加密效率对比*
 
-​	| - `demo.webm`			   // *运行过程演示*
+* `demo.webm`			   // *运行过程演示*
 
 ### 5. 代码结构
 
@@ -73,33 +73,33 @@ main-->comp-->efficiency.png
 
 ### 6. 版本
 
-​	$date:6.14$
+​	date:6.14
 
-​	$V1.0$		实现各类加密方法
+​	V1.0		  实现各类加密方法
 
-​	$V1.0.1$    添加注释，修改部分bug
+​	V1.0.1    添加注释，修改部分bug
 
-​	$V1.1$        封装，在主函数中实现功能
+​	V1.1      封装，在主函数中实现功能
 
-​	$V1.2$        将加密和解密结果存入`cipher.txt`
+​	V1.2      将加密和解密结果存入`cipher.txt`
 
-​	$V1.2.1$     将`RSA`加密算法中随机生成的公钥私钥对存入`key`
+​	V1.2.1    将`RSA`加密算法中随机生成的公钥私钥对存入`key`
 
-​	$date:6.19$
+​	date:6.19
 
-​	$V2.0$        对大量的数据进行加密，测算每种加密方法的运行时间
+​	V2.0      对大量的数据进行加密，测算每种加密方法的运行时间
 
-​	$V2.1$        加密效率的效果对比可视化
+​	V2.1      加密效率的效果对比可视化
 
-​	$V2.1.1$     对各模块添加详细注释
+​	V2.1.1    对各模块添加详细注释
 
 ### 7. 作者
 
-​	$HTY$
+​	HTY
 
 ### 8. 贡献者
 
-​	$DYH,LMC,PH$
+​	DYH,LMC,PH
 
 ### 9. 参考
 

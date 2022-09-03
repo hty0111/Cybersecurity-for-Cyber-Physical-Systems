@@ -67,7 +67,7 @@ comp([加密效率对比])
 2-->AES-->main
 3-->RSA-->main
 main-->show-->cipher.txt
-show-->ke
+show-->key
 main-->comp-->efficiency.png
 ```
 
